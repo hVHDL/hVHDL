@@ -1,7 +1,7 @@
 high level Objects in VHDL
 =====
 
-.. _installation:
+.. _recordobjects:
 
 Installation
 ------------
