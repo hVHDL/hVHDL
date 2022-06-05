@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'hlsVHDL'
+copyright = '2022, Jari Honkanen'
+author = 'johonkanen'
 
 release = '0.1'
 version = '0.1.0'
