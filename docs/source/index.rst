@@ -6,8 +6,7 @@ Welcome to high level synthesizable VHDL project (hVHDL) documentation!
 The key idea behind the patterns are 1) all code should be shareable 2) all code should be changeable when needed.
 To accomplish these two almost opposite ideas we have designed specific patterns for coding 
    - all functionality should be behind abstract interfaces
-   - all code modules should have the possibility to exert backpressure
-   - There should be no need to time code, thus all code should be able to react events triggered by any other module
+   - all code modules should have the possibility to exert backpressure - there should be no need to time code
    - Use any IP from any vendor, add abstract interface and ready flag for interface if not already given by vendor 
 
 Check out the :doc:`usage` section for further information, including
