@@ -1,3 +1,4 @@
+:orphan:
 high level Objects in VHDL
 =====
 
