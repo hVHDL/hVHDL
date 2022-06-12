@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'hlsVHDL'
+project = 'hVHDL'
 copyright = '2022, Jari Honkanen'
 author = 'johonkanen'
 
