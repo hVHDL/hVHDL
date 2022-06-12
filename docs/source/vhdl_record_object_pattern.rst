@@ -1,6 +1,3 @@
-.. autosummary::
-   :toctree: generated
-
 high level Objects in VHDL
 =====
 
