@@ -10,7 +10,7 @@ To accomplish these two almost opposite ideas we have designed specific patterns
    - Use any IP from any vendor, add abstract interface if not already given by vendor 
 
 Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+how to :ref:`installation` the project. Also :ref:`recordobjects`
 
 .. note::
 
