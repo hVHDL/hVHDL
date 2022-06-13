@@ -22,3 +22,4 @@ Contents
 .. toctree::
    usage
    api
+   high level Objects in VHDL
