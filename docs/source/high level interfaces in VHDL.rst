@@ -19,7 +19,7 @@ Creating a simple interface
 
 another thing
 
-Adding an interface to an IP module
------------------------------------
+Adding an abstract interface to any IP module
+=============================================
 
 We also should instantiate any IP modules that do not have an interface inside a wrapper layer
