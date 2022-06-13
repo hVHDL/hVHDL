@@ -13,3 +13,5 @@ Simple state machines
 ---------------------
 
 We should strive for making only linear state machines. Here we will show how to achieve arbitrarily complex begavior with only linear state machines
+
+Separate trigger and catch counters for timing insensitive design
