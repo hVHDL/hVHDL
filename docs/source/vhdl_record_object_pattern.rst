@@ -1,6 +1,9 @@
 high level Objects in VHDL
 ==========================
 
+.. autosummary::
+   :toctree: generated
+
 testing
 -------
 
