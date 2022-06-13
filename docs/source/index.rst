@@ -20,6 +20,7 @@ Contents
 --------
 
 .. toctree::
+   example of a high level vhdl use
    usage
    api
    high level interfaces in VHDL
