@@ -25,3 +25,4 @@ Contents
    high level interfaces in VHDL
    Automatic code timing with handshake interface
    Using libraries in VHDL
+   high level coding patterns in VHDL
