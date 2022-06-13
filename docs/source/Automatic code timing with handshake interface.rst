@@ -6,7 +6,7 @@ The way we allow any code to be allow to be changed is by using a handshake mech
 Backpressure instead of timing
 ------------------------------
 
-The huge benefit of using the concept of backpressure, or handshake is that the code it self manages timing relation between  modules. This also makes writing tests exceptionally simple.
+The huge benefit of using the concept of backpressure, or handshake is that the code it self manages timing relation between  modules. This is absolutely mandatory to allow for the code to be changed later. The is_ready function also makes writing tests exceptionally simple.
 
 Adding backpressure to pipelined function
 -----------------------------------------
