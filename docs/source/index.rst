@@ -22,4 +22,5 @@ Contents
 .. toctree::
    usage
    api
-   high level Objects in VHDL
+   high level interfaces in VHDL
+   Automatic code timing with handshake interface
