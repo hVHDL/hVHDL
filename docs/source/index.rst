@@ -24,3 +24,4 @@ Contents
    api
    high level interfaces in VHDL
    Automatic code timing with handshake interface
+   Using libraries in VHDL
