@@ -22,7 +22,6 @@ Contents
 .. toctree::
    example of a high level vhdl use
    usage
-   api
    high level interfaces in VHDL
    Automatic code timing with handshake interface
    Using libraries in VHDL
