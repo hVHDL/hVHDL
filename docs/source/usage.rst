@@ -19,7 +19,7 @@ After this you can run the VUnit script to run all testbenches found in the modu
    python vunit_run.py -p 8 --gtkwave-fmt ghw
 
 Using the sources in your project
-----------------
+---------------------------------
 
 After the module is added to your project, you need to add the sources you need into your project and optionally specify to which VHDL library the sources are added. All references to packages in the repositories are made without specifying the library using work.package.all so there is no need to have a special library for the code.
 
