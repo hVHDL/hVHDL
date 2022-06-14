@@ -10,7 +10,6 @@ Welcome to high level synthesizable VHDL project (hVHDL) documentation!
 .. literalinclude:: ../vhdl_sources/header_example.vhd
    :caption: Simplest VHDL test bench: `header_example.vhd`
    :language: vhdl
-   :lines: 7-
 
 The key idea behind the patterns are 1) all code should be shareable 2) all code should be changeable when needed.
 To accomplish these two almost opposite ideas we have designed specific patterns for coding 
