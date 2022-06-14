@@ -7,6 +7,11 @@ Welcome to high level synthesizable VHDL project (hVHDL) documentation!
 
 **hVHDL** is a set of coding patterns for standard VHDL that are designed to greatly increase abstraction level of VHDL source code using standard synthesis tools. The coding patterns are designed to support incremental design, testing and development of the VHDL source code. All code has been tested with an FPGA using Xilinx Vivado, ISE, Intel Quartus or Efinix Efinity tools.
 
+.. literalinclude:: ../vhdl_sources/header_example.vhd
+   :caption: Simplest VHDL test bench: `header_example.vhd`
+   :language: vhdl
+   :lines: 7-
+
 The key idea behind the patterns are 1) all code should be shareable 2) all code should be changeable when needed.
 To accomplish these two almost opposite ideas we have designed specific patterns for coding 
    - all functionality should be behind abstract interfaces
@@ -14,7 +19,7 @@ To accomplish these two almost opposite ideas we have designed specific patterns
    - Use any IP from any vendor, add abstract interface if not already given by vendor 
 
 Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project. Also :ref:`recordobjects`
+how to :ref:`installation` the project.
 
 
 Contents
