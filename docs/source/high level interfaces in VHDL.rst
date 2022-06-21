@@ -12,7 +12,7 @@ The main abstract data type in VHDL is called a record. Records are aggregates o
 Subroutines
 -----------
 
-thing
+The magic happens when we use inout as the access type to the signal that is input to the module. With the inout declaration, we can put any multi cycle logic into a record.
 
 Creating a simple interface
 ---------------------------
