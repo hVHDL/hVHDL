@@ -32,8 +32,3 @@ The way we use these high level objects is through the subroutine interface. The
 
 
 .. image:: ../figures/test_figure.PNG
-
-Adding an abstract interface to any IP module
-=============================================
-
-We also should instantiate any IP modules that do not have an interface inside a wrapper layer

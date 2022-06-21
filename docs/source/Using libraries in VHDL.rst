@@ -10,6 +10,18 @@ We commonly add the same sources to multiple libraries when we are reusing code.
 
 A few examples of this is for example using lookup tables. Here we have an example of a lookup table generator.
 
+.. literalinclude:: ../vhdl_sources/sine_rom_example_pkg.vhd
+   :caption: example of a VHDL object record where all registers needed for a functionality are in one record
+   :language: vhdl
+
+.. literalinclude:: ../vhdl_sources/sine_lut_generator_pkg.vhd
+   :caption: example of a VHDL object record where all registers needed for a functionality are in one record
+   :language: vhdl
+
+.. literalinclude:: ../vhdl_sources/sine_lut_generator_w_harmonics_pkg.vhd
+   :caption: example of a VHDL object record where all registers needed for a functionality are in one record
+   :language: vhdl
+
 The specialty of use work.package
 ---------------------------------
 
