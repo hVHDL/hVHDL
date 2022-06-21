@@ -6,3 +6,5 @@ package multiplier_pkg is
         multiplier_result              : output_array;
         shift_register                 : std_logic_vector(3 downto 0);
     end record;
+
+    constant initialize_multiplier_base : multiplier_base_record := (init_input_array, init_input_array, init_output_array, (others => '0'));
