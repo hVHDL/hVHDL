@@ -9,9 +9,11 @@ Records as abstract data types in VHDL
 
 The main abstract data type in VHDL is called a record. Records are aggregates of any other types. Thus they can be made from anything you can make a signal from. This includes all types like arrays of records.
 
-.. literalinclude:: ../vhdl_sources/multiplier_example_pk.vhd
+.. literalinclude:: ../vhdl_sources/multiplier_example_pkg.vhd
    :caption: example of a VHDL object record where all registers needed for a functionality are in one record
    :language: vhdl
+   
+This record object is then added to a project by simply adding a signal of this record type
 
 Subroutines
 -----------
