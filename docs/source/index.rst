@@ -42,5 +42,10 @@ Contents
 
     high level interfaces in VHDL
     Automatic code timing with handshake interface
+
+.. toctree::
+    :caption: High level coding patterns
+    :hidden:
+
     high level coding patterns in VHDL
     Using libraries in VHDL
