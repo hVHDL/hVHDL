@@ -28,12 +28,13 @@ Contents
     :caption: About
     :hidden:
 
+    usage
+
 .. toctree::
     :caption: Examples
     :hidden:
 
     example of a high level vhdl use
-    usage
 
 .. toctree::
     :caption: Interfaces
