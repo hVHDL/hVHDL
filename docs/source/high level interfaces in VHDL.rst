@@ -32,6 +32,7 @@ The way we use these high level objects is through the subroutine interface. The
 
 
 .. image:: ../figures/test_figure.png
+   :caption: test a caption
 
 Adding an abstract interface to any IP module
 =============================================
