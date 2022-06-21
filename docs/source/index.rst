@@ -25,9 +25,12 @@ Contents
 --------
 
 .. toctree::
-   example of a high level vhdl use
-   usage
-   high level interfaces in VHDL
-   Automatic code timing with handshake interface
-   Using libraries in VHDL
-   high level coding patterns in VHDL
+    :caption: About
+    :hidden:
+
+    example of a high level vhdl use
+    usage
+    high level interfaces in VHDL
+    Automatic code timing with handshake interface
+    Using libraries in VHDL
+    high level coding patterns in VHDL
