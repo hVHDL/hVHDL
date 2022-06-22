@@ -8,6 +8,10 @@ Sharing hw resouces inside a procedure
 
 This is exceptionally simple to do. Due to the created interfaces, we can simply call the same request functionality from a created object as many times as required.
 
+.. literalinclude:: ../vhdl_sources/bus_pattern.vhd
+   :caption: example of using a single multiplier for several multiplications
+   :language: vhdl
+
 Sharing hardware accross processes with a bus pattern
 -----------------------------------------------------
 
