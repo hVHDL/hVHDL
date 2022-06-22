@@ -31,4 +31,4 @@ Using a simple interface
 The way we use these high level objects is through the subroutine interface. These interfaces are used with the signal of object record type as the argument. This way all of the specifics of the code remain in one place and therefore any changes in the code are also propagated to everywhere the code is used. Because of this we can modify code inside the abstracted interface and changes are propagated everywhere the code is being used.
 
 
-.. image:: ../figures/test_figure.PNG
+.. image:: ../../figures/test_figure.PNG
