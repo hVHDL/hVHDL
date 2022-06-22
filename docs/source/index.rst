@@ -46,5 +46,5 @@ how to :ref:`installation` the project.
 
     high level coding patterns in VHDL
     Using libraries in VHDL
-    Sharing hardware resources
+    high_level_coding_patterns/sharing_hw_resources
     
