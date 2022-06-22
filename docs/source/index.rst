@@ -37,7 +37,7 @@ how to :ref:`installation` the project.
     :caption: Interfaces
     :hidden:
 
-    high level interfaces in VHDL
+    interfaces/high_level_interfaces_in_VHDL 
     Automatic code timing with handshake interface
 
 .. toctree::
@@ -47,4 +47,3 @@ how to :ref:`installation` the project.
     high level coding patterns in VHDL
     Using libraries in VHDL
     high_level_coding_patterns/sharing_hw_resources
-    
