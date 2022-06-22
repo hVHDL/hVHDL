@@ -33,6 +33,8 @@ how to :ref:`installation` the project.
 
     hvhdl_repositories/fixed_point_math_repository
     hvhdl_repositories/floating_point
+    hvhdl_repositories/memory_module
+    hvhdl_repositories/fpga_interconnect
 
 .. toctree::
     :caption: Examples
