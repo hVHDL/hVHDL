@@ -28,6 +28,12 @@ how to :ref:`installation` the project.
     usage
 
 .. toctree::
+    :caption: High level VHDL modules
+    :hidden:
+
+    hvhdl_repositories/fixed_point_math_repository
+
+.. toctree::
     :caption: Examples
     :hidden:
 
