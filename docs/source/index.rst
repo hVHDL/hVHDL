@@ -31,8 +31,8 @@ how to :ref:`installation` the project.
     :caption: High level VHDL modules
     :hidden:
 
-    ../hvhdl_repositories/fixed_point_math_repository
-    ../hvhdl_repositories/floating_point
+    hvhdl_repositories/fixed_point_math_repository
+    hvhdl_repositories/floating_point
 
 .. toctree::
     :caption: Examples
