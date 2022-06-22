@@ -41,8 +41,10 @@ how to :ref:`installation` the project.
     Automatic code timing with handshake interface
 
 .. toctree::
-    :caption: High Level Coding Patterns in synthesizable VHDL 
+    :caption: High Level Coding Patterns
     :hidden:
 
     high level coding patterns in VHDL
     Using libraries in VHDL
+    Sharing hardware resources
+    
