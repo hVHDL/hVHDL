@@ -23,6 +23,13 @@ Adding backpressure to pipelined function
 
 The difference between a blocking function and pipelined function is that a pipelined function can be called every clock cycle. The module takes some number of clock cycles for the result to be ready, but we can add a new instruction to the pipeline every clock cycle. 
 
+The way we add a ready feature to this type of a module is by adding a pipeline that has equal length to the actual module pipeline. The ready function then just checks for the last bit of the pipeline to be '1'. This way we can vary the pipeline length and still have the application code function as intended.
+
+.. literalinclude:: ../vhdl_sources/backpressure_to_pipelined_function.vhd
+   :caption: example of a ready flag in a pipelined module
+   :language: vhdl
+   
+
 
 Adding ability to do backpressure to a IP module
 ------------------------------------------------
