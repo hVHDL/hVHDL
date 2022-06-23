@@ -1,8 +1,11 @@
-high level interfaces in VHDL
-=============================
+Create High Level Interfaces in VHDL
+====================================
 
-.. autosummary::
-   :toctree: generated
+The main property of an interface is to create a well defined methods for accessing some functionality. The reason for having this interface is that the code behind the interface is indirectly used. This allows the code to be changed and modified without the changes being propagated to the application. This also allows sharing code accross multiple projects.
+
+We can create an interface to either an IP component, that is an entity with a port as well as a set of functionality by using record as a minimal entity that is then used inside a process. 
+
+In VHDL records define the abstract data types and functions and procedures then define the way these data types are interacted with.
 
 Records as abstract data types in VHDL
 --------------------------------------
