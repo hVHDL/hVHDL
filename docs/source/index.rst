@@ -60,3 +60,9 @@ To accomplish these two almost opposite ideas we have designed specific patterns
     high level coding patterns in VHDL
     Using libraries in VHDL
     high_level_coding_patterns/sharing_hw_resources
+
+.. toctree::
+    :caption: Numerical methods with VHDL and FPGAs
+    :hidden:
+
+    numerical_methods/solving_differential_equations
