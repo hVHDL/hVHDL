@@ -36,6 +36,8 @@ how to :ref:`installation` the project.
     hvhdl_repositories/memory_module
     hvhdl_repositories/fpga_interconnect
     hvhdl_repositories/dynamic_verification
+    hvhdl_repositories/gigabit_ethernet
+    hvhdl_repositories/uart
 
 .. toctree::
     :caption: Examples
