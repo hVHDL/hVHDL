@@ -62,7 +62,7 @@ To accomplish these two almost opposite ideas we have designed specific patterns
     high_level_coding_patterns/sharing_hw_resources
 
 .. toctree::
-    :caption: Numerical methods with VHDL and FPGAs
+    :caption: Numerical methods with VHDL
     :hidden:
 
     numerical_methods/solving_differential_equations
