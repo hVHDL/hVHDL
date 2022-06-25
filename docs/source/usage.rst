@@ -1,8 +1,10 @@
 Usage
 =====
 
+Repository structure with the modules follow the same pattern. The interfaces through which the modules are used will be in interface/ folder. This folder has test benches with functional tests for the interfaces. These interface tests are the specification for the behavior of the interfaces. The tests are very vague and lacking details by design as we want to have the possibility for changing any part of the code behind the interfaces. These tests are the only ones that are not ment to changed.
 
 .. _installation:
+
 
 Installation
 ------------
