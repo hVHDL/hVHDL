@@ -19,7 +19,7 @@ https://github.com/hVHDL
     :hidden:
 
     about/what_is_hvhdl.rst
-    usage
+    about/usage
     about/module_repository_structure
 
 .. toctree::
@@ -45,6 +45,7 @@ https://github.com/hVHDL
     :hidden:
 
     interfaces/high_level_interfaces_in_VHDL 
+    interfaces/Using libraries in VHDL
     interfaces/Automatic code timing with handshake interface
     interfaces/real_numbers_in_synthesizable_VHDL.rst
 
@@ -52,8 +53,7 @@ https://github.com/hVHDL
     :caption: High Level Coding Patterns
     :hidden:
 
-    high level coding patterns in VHDL
-    Using libraries in VHDL
+    high_level_coding_patterns/high level coding patterns in VHDL
     high_level_coding_patterns/sharing_hw_resources
 
 .. toctree::
