@@ -5,6 +5,8 @@ Repository structure with the modules follow the same pattern. The interfaces th
 
 Since all modules are ment to be used as submodules, these interface tests allow us to use any version of the code as long as we use the code through these interfaces. These interfaces also allow us to develop the code in the submodules independently of the application code where they are used. This separation of module from the application is very important to allow code being reused and still retain the ability to modify it.
 
+In VHDL abstract interfaces are created using functions and procedures as well as a record. In order to change the specifics of the code we can use records in records. The way we introduce modifiability to the insides of these records and subroutines we use packages and libraries. These are further explained in the page about `interfaces`. 
+
 .. _installation:
 
 Installation
