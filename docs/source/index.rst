@@ -10,12 +10,9 @@ Welcome to high level synthesizable VHDL project (hVHDL) documentation!
    :caption: High level code example
    :language: vhdl
 
-**hVHDL** is a set of coding patterns for standard VHDL that are designed manage complexity of digital system design in VHDL. Complexity is managed by dividing large systems into small individual pieces that can be designed and tested in isolation from each other. The coding patterns are designed to support incremental design, testing and development of the VHDL source code and to increase the level of abstraction. All code has been tested with an FPGA using Xilinx Vivado, ISE, Intel Quartus or Efinix Efinity tools and simulated with GHDL.
-
-
+**hVHDL** is a set of coding patterns for standard VHDL that are designed manage complexity of digital system design in VHDL. Complexity is managed by dividing large systems into small individual pieces that can be designed, tested and updated in isolation from each other. The coding patterns allow us to support incremental design, testing and development of the VHDL source code and to increase the level of abstraction. All code has been tested with an FPGA using Xilinx Vivado, ISE, Intel Quartus or Efinix Efinity tools and simulated with GHDL.
 
 https://github.com/hVHDL
-
 
 .. toctree::
     :caption: About
@@ -46,7 +43,7 @@ https://github.com/hVHDL
     :hidden:
 
     interfaces/high_level_interfaces_in_VHDL 
-    Automatic code timing with handshake interface
+    interfaces/Automatic code timing with handshake interface
     interfaces/real_numbers_in_synthesizable_VHDL.rst
 
 .. toctree::
