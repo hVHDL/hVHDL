@@ -10,15 +10,11 @@ Welcome to high level synthesizable VHDL project (hVHDL) documentation!
    :caption: High level code example
    :language: vhdl
 
-**hVHDL** is a set of coding patterns for standard VHDL that are designed to greatly increase abstraction level of VHDL source code using standard synthesis tools. The coding patterns are designed to support incremental design, testing and development of the VHDL source code. All code has been tested with an FPGA using Xilinx Vivado, ISE, Intel Quartus or Efinix Efinity tools.
+**hVHDL** is a set of coding patterns for standard VHDL that are designed to for us to be able to build a large systems easier. This is done by creating abstractions that allow us to divide large systems into small pieces that can be designed and deployed in isolation from each other. The coding patterns are designed to support incremental design, testing and development of the VHDL source code. All code has been tested with an FPGA using Xilinx Vivado, ISE, Intel Quartus or Efinix Efinity tools.
+
+
+
 https://github.com/hVHDL
-
-The key idea behind the patterns are 1) all code should be shareable 2) all code should be changeable when needed.
-To accomplish these two almost opposite ideas we have designed specific patterns for coding 
-- all functionality should be behind abstract interfaces
-- all code modules should have the possibility to exert backpressure - there should be no need to time code
-- Use any IP from any vendor, add abstract interface if not already given by vendor 
-
 
 
 .. toctree::

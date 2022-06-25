@@ -4,6 +4,14 @@
 Create High Level Interfaces in VHDL
 ====================================
 
+The interfaces are designed to greatly increase abstraction level of VHDL source code.
+The key idea behind the patterns are 1) all code should be shareable 2) all code should be changeable when needed.
+To accomplish these two almost opposite ideas we have designed specific patterns for coding 
+- all functionality should be behind abstract interfaces
+- all code modules should have the possibility to exert backpressure - there should be no need to time code
+- Use any IP from any vendor, add abstract interface if not already given by vendor 
+
+
 The main property of an interface is to create a well defined methods for accessing some functionality. The reason for having this interface is that the code behind the interface is indirectly used. This allows the code to be changed and modified without the changes being propagated to the application. This also allows sharing code accross multiple projects.
 
 We can create an interface to either an IP component, that is an entity with a port as well as a set of functionality by using record as a minimal entity that is then used inside a process. 
