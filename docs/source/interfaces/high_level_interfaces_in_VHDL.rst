@@ -1,3 +1,6 @@
+
+.. _interfaces:
+
 Create High Level Interfaces in VHDL
 ====================================
 
