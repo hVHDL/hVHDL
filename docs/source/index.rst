@@ -18,7 +18,9 @@ https://github.com/hVHDL
     :caption: About
     :hidden:
 
+    about/what_is_hvhdl.rst
     usage
+    about/module_repository_structure
 
 .. toctree::
     :caption: High level VHDL modules
