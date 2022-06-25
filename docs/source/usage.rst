@@ -3,13 +3,14 @@ Usage
 
 Repository structure with the modules follow the same pattern. The interfaces through which the modules are used will be in interface/ folder. This folder has test benches with functional tests for the interfaces. These interface tests are the specification for the behavior of the interfaces. The tests are very vague and lacking details by design as we want to have the possibility for changing any part of the code behind the interfaces. These tests are the only ones that are not ment to changed.
 
-.. _installation:
+Since all modules are ment to be used as submodules, these interface tests allow us to use any version of the code as long as we use the code through these interfaces. These interfaces also allow us to develop the code in the submodules independently of the application code where they are used. This separation of module from the application is very important to allow code being reused and still retain the ability to modify it.
 
+.. _installation:
 
 Installation
 ------------
 
-The repositories are developed as independently as possible as long as there is no need to repeat code. To add a repository to your project, use of submodules is recommended. To add the fixed point math library as submodule into your project, use
+The repositories are developed as independently as possible as long as there is no need to repeat code. To add a repository to your project just add them as a submodule. For example adding the fixed point math library as submodule into your project though console
 
 .. code-block:: console
 
