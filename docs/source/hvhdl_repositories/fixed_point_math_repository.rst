@@ -14,16 +14,17 @@ To add multiplier into your design you need to include the multiplier package an
 
 The shift and rounding logic is in the get_multiplier_result function. 
 
-.. literalinclude:: ../source/hvhdl_repositories/fixed_point_math_vhdl_sources/multiplier_example.vhd
-   :caption: example of multiplier use
-   :language: vhdl
-
 .. literalinclude:: ../vhdl_sources/multiplier_example.vhd
    :caption: example of using a single multiplier for several multiplications
    :language: vhdl
 
 Divider
 -------
+
+.. literalinclude:: ../vhdl_sources/header_example.vhd
+   :caption: High level code example
+   :language: vhdl
+
 
 Divider divides
 
