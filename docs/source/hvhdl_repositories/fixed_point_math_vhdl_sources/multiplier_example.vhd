@@ -10,16 +10,17 @@ end entity test;
 
 architecture rtl of test is
 
-    signal multiplier : multiplier_record := init_multiplier;
-    signal counter : integer := 0;
+    signal multiplier        : multiplier_record := init_multiplier;
+
+    signal counter           : integer := 0;
     signal multiplier_result : integer := 0;
 
 begin
 
-    multiply : process(clock)
+    process(clock)
     begin
         if rising_edge(clock) then
-            counter <= counter + 1;
+            counter <= (counter + 1) mod 2**15;
             create_multiplier(multiplier);
 
             multiply(multiplier, counter, counter);
@@ -28,5 +29,5 @@ begin
             end if;
                 
         end if; --rising_edge
-    end process multiply;	
+    end process;	
 end rtl;
