@@ -18,6 +18,10 @@ The shift and rounding logic is in the get_multiplier_result function.
    :caption: example of multiplier use
    :language: vhdl
 
+.. literalinclude:: ../vhdl_sources/multiplier_example.vhd
+   :caption: example of using a single multiplier for several multiplications
+   :language: vhdl
+
 Divider
 -------
 
