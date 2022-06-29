@@ -23,8 +23,8 @@ Divider
 
 In addition to the sources in the division folder, divider also requires a multiplier. The divider is based on inverting the divider and then multiplying the result. The divider has a range reduction function which allows the inverting and resulting multiplication to work with numbers in [0.5, 1] range. A more thorough explanation of the divider is given in https://hardwaredescriptions.com/conquer-the-divide/
 
-.. literalinclude:: fixed_point_math_vhdl_sources/multiplier_example.vhd
-   :caption: example of using a single multiplier for several multiplications
+.. literalinclude:: fixed_point_math_vhdl_sources/divider_example.vhd
+   :caption: example of using divider
    :language: vhdl
 
 Sine and Cosine
