@@ -53,6 +53,7 @@ https://github.com/hVHDL
     :caption: High Level Coding Patterns
     :hidden:
 
+    high_level_coding_patterns/code_reuse
     high_level_coding_patterns/high level coding patterns in VHDL
     high_level_coding_patterns/sharing_hw_resources
 
