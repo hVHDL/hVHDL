@@ -10,5 +10,5 @@ There is also a floating point implementation of the filter found in own module.
 There is minimal internal bus implementation which allows access to the registers from uart. 
 
 
-see example here :
+see example here(implementation will be added soon) :
 https://github.com/hVHDL/hVHDL_example_project
