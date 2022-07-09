@@ -23,6 +23,13 @@ https://github.com/hVHDL
     about/module_repository_structure
 
 .. toctree::
+    :caption: Examples
+    :hidden:
+
+    example of a high level vhdl use
+
+
+.. toctree::
     :caption: High level VHDL modules
     :hidden:
 
@@ -33,12 +40,6 @@ https://github.com/hVHDL
     hvhdl_repositories/dynamic_verification
     hvhdl_repositories/gigabit_ethernet
     hvhdl_repositories/uart
-
-.. toctree::
-    :caption: Examples
-    :hidden:
-
-    example of a high level vhdl use
 
 .. toctree::
     :caption: Interfaces
