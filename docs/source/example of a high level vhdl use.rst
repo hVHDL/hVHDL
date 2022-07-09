@@ -1,8 +1,14 @@
 example of a high level vhdl use
 ================================
 
-This is an example of a lookup table function that is mapped into an internal bus in the FPGA, which is then transmitted out with uart
+There is an example project that includes build scripts for building the project using Efinix Efinity, Lattice Diamond, Intel Quartus, Xilinx ISE/PlanAhead and Xilinx Vivado.
+
+The project can be used as an example how to include and use hVHDL sources to your own project. The project includes 2 modules that calculate in fixed point a sine wave and adds a noise component to it. Then this reference signal is filtered using a bandpass filter.
+
+There is also a floating point implementation of the filter found in own module.
+
+There is minimal internal bus implementation which allows access to the registers from uart. 
 
 
-get example here 
-https://github.com/johonkanen/ac_in_ac_out_lab_power_supply/blob/main/source/system_control/component_interconnect/test_module/test_module.vhd
+see example here :
+https://github.com/hVHDL/hVHDL_example_project
