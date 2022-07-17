@@ -12,4 +12,10 @@ Project
 -------
 The example project uses uart, multiplier and the internal bus. The design creates a sine wave, a noise using a pseudorandom binary sequence generator sums these two together and connect the signals into the internal bus.
 
-The bus master has an uart. The communications which allows streaming the register pointed by a number that is obtained from the UART, thus any register connected to the bus is readable from the uart.
+The bus master has an uart which allows communication between the FPGA and a PC. The communications which allows streaming the register pointed by a number that is obtained from the UART, thus any register connected to the bus is readable from the uart.
+
+.. literalinclude:: hvhdl_example_project/vhdl_sources/ecp5_top.vhd
+   :caption: Diamond, Quartus and Vivado top file
+   :language: vhdl
+
+

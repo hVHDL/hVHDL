@@ -26,8 +26,7 @@ https://github.com/hVHDL
     :caption: Examples
     :hidden:
 
-    example of a high level vhdl use
-
+    hvhdl_example_project/hvhdl_example_project.rst
 
 .. toctree::
     :caption: High level VHDL modules
@@ -40,12 +39,6 @@ https://github.com/hVHDL
     hvhdl_repositories/dynamic_verification
     hvhdl_repositories/gigabit_ethernet
     hvhdl_repositories/uart
-
-.. toctree::
-    :caption: Examples
-    :hidden:
-
-    hvhdl_example_project/hvhdl_example_project.rst
 
 .. toctree::
     :caption: Interfaces
