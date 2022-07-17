@@ -5,5 +5,11 @@ There is an example project that includes build scripts for building the project
 
 The project can be used as an example how to include and use hVHDL sources to your own project. The project uses uart, multiplier, sine, interconnecting bus, a floating point math and memory.
 
-see example here(implementation will be added soon) :
+see example here :
 https://github.com/hVHDL/hVHDL_example_project
+
+Project
+-------
+The example project uses uart, multiplier and the internal bus. The design creates a sine wave, a noise using a pseudorandom binary sequence generator sums these two together and connect the signals into the internal bus.
+
+The bus master has an uart. The communications which allows streaming the register pointed by a number that is obtained from the UART, thus any register connected to the bus is readable from the uart.

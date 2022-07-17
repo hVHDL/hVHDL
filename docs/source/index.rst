@@ -45,7 +45,7 @@ https://github.com/hVHDL
     :caption: Examples
     :hidden:
 
-    hvhdl_example_project/example of a high level vhdl use
+    hvhdl_example_project/hvhdl_example_project.rst
 
 .. toctree::
     :caption: Interfaces
