@@ -23,3 +23,6 @@ The efinix_top.vhd file is common for all builds. The reason for the long names 
 .. literalinclude:: vhdl_sources/efinix_top.vhd
    :caption: Efinix top
    :language: vhdl
+
+.. image:: ../../figures/test_figure.PNG
+   :caption: jiuu
