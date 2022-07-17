@@ -24,7 +24,6 @@ The efinix_top.vhd file is common for all builds. The reason for the long names 
    :caption: Efinix top
    :language: vhdl
 
-test a figure
 .. image:: figures/original_sine.png
 
 .. image:: figures/noise.png
