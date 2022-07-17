@@ -14,12 +14,12 @@ The example project uses uart, multiplier and the internal bus. The design creat
 
 The bus master has an uart which allows communication between the FPGA and a PC. The communications which allows streaming the register pointed by a number that is obtained from the UART, thus any register connected to the bus is readable from the uart.
 
-.. literalinclude:: hvhdl_example_project/vhdl_sources/ecp5_top.vhd
+.. literalinclude:: vhdl_sources/ecp5_top.vhd
    :caption: Diamond, Quartus and Vivado top file
    :language: vhdl
 
 The efinix_top.vhd file is common for all builds. The reason for the long names of the uart sources is that the IO are routed through the design using records. The use of records allows syntax checking to catch bugs in the design. Thus if we change a module, then the syntax checking will see that the name of the module is changed and flags an error.
 
-.. literalinclude:: hvhdl_example_project/vhdl_sources/efinix_top.vhd
+.. literalinclude:: vhdl_sources/efinix_top.vhd
    :caption: Efinix top
    :language: vhdl
