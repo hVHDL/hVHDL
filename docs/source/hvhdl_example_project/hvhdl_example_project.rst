@@ -70,7 +70,7 @@ The fixed point filter uses a slightly different implementation of the filter th
 Filtering results
 -----------------
 
-The signals are captured using uart and plotted into figures with matlab.
+The signals are captured using uart and plotted into figures with matlab. The original sine, noise and combined noisy sine are shown below
 
 .. image:: figures/original_sine.png
 
@@ -78,4 +78,20 @@ The signals are captured using uart and plotted into figures with matlab.
 
 .. image:: figures/noisy_sine.png
 
+Since the fixed and floating point implmentations of the filters have the same response, the filtering results are also almost identical.
+
 .. image:: figures/filtered_sine.png
+
+Synthesis results
+-----------------
+
+The synthesis results are shown in figure below the ecp, efinix and intel resource use including both luts and multipliers are quite similar due to 4 input lookup tables. Spartan 7 has six input luts and the compiler manages to use a lot of the 6 input luts, thus the resource use is somewhat smaller. All of the designs meet timing at 120MHz.
+
+.. image:: figures/ecp_synthesis_result.png
+
+.. image:: figures/efinix_synthesis_result.png
+
+.. image:: figures/intel_synthesis_result.PNG
+
+.. image:: figures/vivado_synthesis_result.PNG
+
