@@ -23,7 +23,14 @@ The efinix top module instantiates the main system interconnect module which ins
    :caption: Efinix top
    :language: vhdl
 
+Noisy sine generation
+---------------------
 
+The High level coding patterns are visible in the sine generation. The process that creates a sine, noise and 100kHz time level for the signal and filtering is shown below. In the process we create a multiplier, a sincos module that calculates both sine and cosine of an angle and initialize the internal bus node as well as the fixed and floating point filter modules.
+
+.. literalinclude:: vhdl_sources/sine_and_time_level_generation.vhd
+   :caption: sine and timelevel generation
+   :language: vhdl
 
 .. image:: figures/original_sine.png
 
