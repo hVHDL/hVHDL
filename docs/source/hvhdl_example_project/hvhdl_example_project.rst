@@ -82,6 +82,12 @@ Since the fixed and floating point implmentations of the filters have the same r
 
 .. image:: figures/filtered_sine.png
 
+The difference between fixed and floating point can be seen in the zoomed in figure
+
+.. image:: figures/fixed_point_filter_closeup.png
+
+.. image:: figures/floating_point_filter_closeup.png
+
 Synthesis results
 -----------------
 
