@@ -5,7 +5,7 @@ There is an example project that includes build scripts for building the project
 
 The example project uses uart, multiplier, floating point math and the internal bus. The design creates a noisy sine wave and a fixed and a floating point filters to clean the noise from the the sine. The sine, noise, and fixed and floating point filtered versions of the noisy sine are then connected to an internal bus. The bus is connected to an uart which allows communication between the FPGA and a PC. The communication allows streaming the register pointed by a number that is obtained from the UART, thus any register connected to the bus is readable from the uart with a PC.
 
-See the example here :
+See the example project here :
 https://github.com/hVHDL/hVHDL_example_project
 
 Example Project
